@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:wght@700&display=swap');
+
+body {
+    background-color: #383838;
+    color: #F5F5F5;
+
+    /*    make sure you set family and size on body*/
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+/* Typohrapgy */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0 20px 0;
+}
+
+h1 {
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+
+h2 {
+    text-transform: uppercase;
+    background-color: orange;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 4px solid white;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+
+/* anchor styles*/
+
+a {
+    color: #FFFF;
+    background-color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:active {
+    color: yellow;
+}
+
+.wrapper {
+    width: 980px;
+    /*    TOP RIGHT BOTTOM LEFT*/
+    margin: 20px auto 0px auto;
+}
+
+header {
+    background-color: #F5F5F5;
+    padding: 20px;
+    height: 200px;
+}
+
+nav {
+    background-color: #6C6A61;
+}
+
+nav ul {}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    background-color: beige;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul li a:hover {
+    background-color: aqua;
+    text-decoration: none;
+
+}
+
+/* Main Container */
+
+main {
+    background-color: #959595;
+    padding: 20px;
+    overflow: auto;
+}
+
+footer {
+    background-color: greenyellow;
+    color: black;
+    padding: 20px;
+}
