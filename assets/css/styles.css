@@ -5,7 +5,7 @@ body {
 
     /*    make sure you set family and size on body*/
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 1.6em;
 }
 
 /* Typohrapgy */
@@ -17,20 +17,18 @@ h4,
 h5,
 h6 {
     font-family: 'Dosis', sans-serif;
-    margin: 10px 0 20px 0;
+    margin-bottom: 0.625em;
 }
 
 h1 {
-    padding: 20px;
+    padding-bottom: 1.0em;
+    margin-bottom: 0em;
     text-align: center;
-    font-size: 30px;
-    text-transform: uppercase;
-    color: #383838;
-    letter-spacing: 5px;
+    font-size: 1.0em;
+    letter-spacing: 0.04em;
 }
 
 h2 {
-    text-transform: uppercase;
     padding: 10px;
     font-size: 25px;
     font-weight: bold;
@@ -47,63 +45,64 @@ p {
 /* anchor styles*/
 
 a {
-    color: black;
     text-decoration: none;
+    color: #6C6A61;
 }
 
 a:hover {
-    text-decoration: underline;
+    font-weight: bolder;
 }
 
 a:visited {
-    color: grey;
+    color: #6C6A61;
 }
 
 a:active {
-    color: yellow;
+    color: black;
 }
 
 .wrapper {
     width: 980px;
     /*    TOP RIGHT BOTTOM LEFT*/
-    margin: 20px auto 0px auto;
+    margin: 1.250em auto 0px auto;
 }
 
-header {
-    padding: 20px;
-    height: 200px;
+header {}
+
+.index {
+    padding: 0em;
+    background-color: aquamarine;
+    height: 29em;
 }
 
 nav {
     text-align: center;
 }
 
-nav ul {}
+nav ul {
+    font-size: 0.750em
+}
 
 nav ul li {
     display: inline;
-    margin-right: 100px;
+    padding: 0em 2.4em;
 }
 
 nav ul li a {
-    color: black;
     text-decoration: none;
-    padding: 10px 5px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    padding: 0.6250em 0.20em;
+    letter-spacing: 0.125em;
 }
 
 nav ul li a:hover {
-    text-decoration: none;
     text-decoration: line-through;
-
-
+    font-weight: bold;
 }
 
 /* Main Container */
 
 main {
-    padding: 20px;
+    padding: 1.250em;
     overflow: auto;
 }
 
