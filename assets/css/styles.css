@@ -42,6 +42,12 @@ p {
     margin-bottom: 20px;
 }
 
+em {
+    font-size: 12px;
+    text-align: center;
+
+}
+
 /* anchor styles*/
 
 a {
@@ -62,21 +68,35 @@ a:active {
 }
 
 .wrapper {
-    width: 980px;
+    width: 1020px;
     /*    TOP RIGHT BOTTOM LEFT*/
-    margin: 1.250em auto 0px auto;
+    margin: 0 auto 0px auto;
+}
+
+.wrapper.nav-wrapper {
+    width: 1200px;
 }
 
 header {}
 
+.col {
+    width: 33%;
+    float: left;
+}
+
 .index {
     padding: 0em;
-    background-color: aquamarine;
+    /*    background-color: aquamarine;*/
+    background-image: url(../images/churchill-house-4.jpg);
+    background-size: cover;
     height: 29em;
 }
 
 nav {
+    padding-top: 1.25em;
     text-align: center;
+    /*    background: rgba(00,00,00,0.5);*/
+    overflow: auto;
 }
 
 nav ul {
@@ -85,18 +105,20 @@ nav ul {
 
 nav ul li {
     display: inline;
-    padding: 0em 2.4em;
+    padding: 0em .4em;
+    transform-origin: 0 0;
 }
 
-nav ul li a {
+nav ul li a,
+nav ul li a:visited {
     text-decoration: none;
     padding: 0.6250em 0.20em;
     letter-spacing: 0.125em;
+    color: #000;
 }
 
 nav ul li a:hover {
     text-decoration: line-through;
-    font-weight: bold;
 }
 
 /* Main Container */
@@ -106,8 +128,32 @@ main {
     overflow: auto;
 }
 
+.home-content {
+    /*    column-count: 3;*/
+}
+
+.home-content .col {
+    width: 30%;
+    padding: .2em;
+
+}
+
+.home-content .col.middle {
+    margin: 0 1.38em;
+}
+
+.home-content img {
+    max-width: 100%;
+    margin-bottom: 1em;
+}
+
 footer {
-    text-align: center;
     color: black;
     padding: 20px 0;
+    background: #ccc;
+}
+
+.footerp {
+    font-size: 30px;
+
 }
