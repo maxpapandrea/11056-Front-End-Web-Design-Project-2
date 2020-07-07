@@ -90,6 +90,38 @@ header {}
     height: 29em;
 }
 
+.about {
+    padding: 0em;
+    /*    background-color: aquamarine;*/
+    background-image: url(../images/churchill-house-5.png);
+    background-size: 70%;
+    height: 29em;
+}
+
+.significance {
+    padding: 0em;
+    /*    background-color: aquamarine;*/
+    background-image: url(../images/churchill-house-25.jpg);
+    background-size: cover;
+    height: 29em;
+}
+
+.thebuilding {
+    padding: 0em;
+    /*    background-color: aquamarine;*/
+    background-image: url(../images/churchill-house-28.jpg);
+    background-size: cover;
+    height: 29em;
+}
+
+.history {
+    padding: 0em;
+    /*    background-color: aquamarine;*/
+    background-image: url(../images/churchill-house-46.jpg);
+    background-size: cover;
+    height: 29em;
+}
+
 nav {
     padding-top: 1.25em;
     text-align: center;
