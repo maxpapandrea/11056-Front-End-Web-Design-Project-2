@@ -25,26 +25,41 @@ h1 {
     text-align: center;
     font-size: 1.2em;
     letter-spacing: 0.04em;
+    text-transform: uppercase;
 }
 
 h2 {
     color: #6C6A61;
     padding: 10px 0 10px 0;
-    font-size: 25px;
-    font-weight: bold;
-    border-bottom: 4px solid #6C6A61;
+    font-size: 1.1em;
+    border-bottom: 0.10em solid #6C6A61;
     letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #6C6A61;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    padding: 0.3em 0 0.3em 0;
+    border-bottom: 0.10em solid #6C6A61;
+
 }
 
 p {
-    font-size: 0.60em;
+    font-size: 0.70em;
     line-height: 23px;
     margin-bottom: 20px;
+    font-family: 'Dosis', sans-serif;
 }
 
 em {
     font-family: 'Roboto Mono', monospace;
     font-size: 0.7em;
+}
+
+ul li {
+    font-family: 'Dosis', sans-serif;
 }
 
 /* anchor styles*/
@@ -83,11 +98,11 @@ header {}
 }
 
 .index {
-    padding: 0em;
+    padding: em;
     /*    background-color: aquamarine;*/
     background-image: url(../images/churchill-house-4.jpg);
     background-size: cover;
-    height: 29em;
+    height: 35em;
 }
 
 .about {
@@ -95,7 +110,7 @@ header {}
     /*    background-color: aquamarine;*/
     background-image: url(../images/churchill-house-5.png);
     background-size: 70%;
-    height: 29em;
+    height: 35em;
 }
 
 .significance {
@@ -103,7 +118,7 @@ header {}
     /*    background-color: aquamarine;*/
     background-image: url(../images/churchill-house-25.jpg);
     background-size: cover;
-    height: 29em;
+    height: 35em;
 }
 
 .thebuilding {
@@ -111,7 +126,7 @@ header {}
     /*    background-color: aquamarine;*/
     background-image: url(../images/churchill-house-28.jpg);
     background-size: cover;
-    height: 29em;
+    height: 35em;
 }
 
 .history {
@@ -119,7 +134,7 @@ header {}
     /*    background-color: aquamarine;*/
     background-image: url(../images/churchill-house-46.jpg);
     background-size: cover;
-    height: 29em;
+    height: 35em;
 }
 
 nav {
@@ -137,6 +152,7 @@ nav ul li {
     display: inline;
     padding: 0em .4em;
     transform-origin: 0 0;
+    list-style: none;
 }
 
 nav ul li a,
@@ -149,6 +165,7 @@ nav ul li a:visited {
 nav ul li a:hover {
     text-decoration: line-through;
 }
+
 
 /* Main Container */
 
@@ -197,4 +214,9 @@ footer {
     font-size: 0.8em;
     letter-spacing: 0.15em;
 
+}
+
+.list {
+    font-size: 0.70em;
+    list-style: circle;
 }
