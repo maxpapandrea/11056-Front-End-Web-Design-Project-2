@@ -43,6 +43,7 @@ h3 {
     font-size: 0.9em;
     padding: 0.3em 0 0.3em 0;
     border-bottom: 0.10em solid #6C6A61;
+    clear: both;
 
 }
 
@@ -103,14 +104,16 @@ header {}
     background-image: url(../images/churchill-house-4.jpg);
     background-size: cover;
     height: 35em;
+    filter: grayscale(90%);
 }
 
 .about {
     padding: 0em;
     /*    background-color: aquamarine;*/
-    background-image: url(../images/churchill-house-5.png);
-    background-size: 70%;
+    background-image: url(../images/churchill-house-1.jpg);
+    background-size: cover;
     height: 35em;
+    filter: grayscale(90%);
 }
 
 .significance {
@@ -119,6 +122,7 @@ header {}
     background-image: url(../images/churchill-house-25.jpg);
     background-size: cover;
     height: 35em;
+    filter: grayscale(90%);
 }
 
 .thebuilding {
@@ -127,6 +131,7 @@ header {}
     background-image: url(../images/churchill-house-28.jpg);
     background-size: cover;
     height: 35em;
+    filter: grayscale(90%);
 }
 
 .history {
@@ -135,6 +140,7 @@ header {}
     background-image: url(../images/churchill-house-46.jpg);
     background-size: cover;
     height: 35em;
+    filter: grayscale(90%);
 }
 
 nav {
@@ -166,6 +172,20 @@ nav ul li a:hover {
     text-decoration: line-through;
 }
 
+.thebuilding a {
+    color: #F5F5F5;
+}
+
+
+
+.about a {
+    color: #383838;
+}
+
+.significance a {
+    color: #F5F5F5;
+}
+
 
 /* Main Container */
 
@@ -193,6 +213,7 @@ main {
     margin-bottom: 1em;
 }
 
+
 footer {
     padding: 20px 0;
     background: #ccc;
@@ -216,7 +237,52 @@ footer {
 
 }
 
-.list {
+
+main ul {}
+
+main ul li {
+    list-style-type: circle;
+    margin-left: em;
+    padding: 0.5em;
+    padding-bottom: 1em;
     font-size: 0.70em;
-    list-style: circle;
 }
+
+.left-image {
+    width: 10em;
+    float: left;
+    padding: 0 2em 1em 0em;
+    filter: grayscale(90%);
+}
+
+.right-image {
+    width: 10em;
+    float: right;
+    padding: 0 0em 1em 1em;
+    filter: grayscale(90%);
+}
+
+
+
+
+@media only screen and (max-width: 375px) {
+
+    .wrapper {
+        width: 100%;
+
+    }
+
+
+    .wrapper .nav-wrapper {
+        width: 100%;
+    }
+
+    .col {
+        float: none;
+    }
+
+
+}
+
+/*make sure this closing bracket is here */
+@media only screen and (min-width: 375px) and (max-width: 1024px) {}
