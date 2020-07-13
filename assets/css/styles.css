@@ -99,7 +99,7 @@ header {}
 }
 
 .index {
-    padding: em;
+    padding: 0em;
     /*    background-color: aquamarine;*/
     background-image: url(../images/churchill-house-4.jpg);
     background-size: cover;
@@ -221,6 +221,7 @@ footer {
 
 .col-left {
     letter-spacing: 0.15em;
+    color: #383838;
 }
 
 .copyright {
@@ -242,7 +243,6 @@ main ul {}
 
 main ul li {
     list-style-type: circle;
-    margin-left: em;
     padding: 0.5em;
     padding-bottom: 1em;
     font-size: 0.70em;
@@ -262,27 +262,101 @@ main ul li {
     filter: grayscale(90%);
 }
 
-
-
-
-@media only screen and (max-width: 375px) {
+/*make sure this closing bracket is here */
+@media only screen and (min-width: 375px) and (max-width: 1024px) {
 
     .wrapper {
         width: 100%;
-
+        padding: 0px;
     }
 
+    main {
+        padding: 0.5em;
+    }
 
     .wrapper .nav-wrapper {
         width: 100%;
     }
 
     .col {
+        width: 100%;
+        padding: 0px;
         float: none;
     }
 
+    .col-left {
+        float: none;
+    }
+
+    footer {
+        padding: 0.5em;
+    }
+
+    .index {
+        height: 12em;
+    }
+
+    .thebuilding {
+        height: 12em;
+    }
+
+    .significance {
+        height: 12em;
+    }
+
+    .about {
+        height: 12em;
+    }
+
+    .history {
+        height: 12em;
+
+    }
+
+    h2 {
+        width: 100%;
+    }
+
+    .home-content .col {
+        width: 100%;
+        padding-left: 0px;
+        margin-left: 0px;
+        float: none;
+    }
+
+    .home-content .col.middle {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .left-image {
+        padding: 0em 2em 1em;
+
+    }
+
+    .right-image {
+        padding: 0em 2em 1em;
+    }
+
+    main ul li {
+        text-transform: uppercase;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
-
-/*make sure this closing bracket is here */
-@media only screen and (min-width: 375px) and (max-width: 1024px) {}
